@@ -1,1 +1,8 @@
 theme: jekyll-theme-slate
+
+# Site settings
+title: Trong Canh Nguyen' notes
+description: "Notes on Machine Learning, AI"
+baseurl: ""
+url: "http://tcnguyen.github.io"
+github_username:  tcnguyen
