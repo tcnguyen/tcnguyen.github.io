@@ -41,12 +41,35 @@ conv_layer = tf.nn.relu(conv_layer)
 # Apply Max Pooling
 conv_layer = tf.nn.max_pool(
     conv_layer,
-    ksize=[1, 2, 2, 1],
-    strides=[1, 2, 2, 1],
+    ksize=[1, 2, 2, 1], #(batch_size, height, width, depth)
+    strides=[1, 2, 2, 1], #(batch_size, height, width, depth)
     padding='SAME')
 ```
 
+### Padding:
+```
+"VALID" = without padding:
+   inputs:         1  2  3  4  5  6  7  8  9  10 11 (12 13)
+                  |________________|                dropped
+                                 |_________________|
+"SAME" = with zero padding:
+               pad|                                      |pad
+   inputs:      0 |1  2  3  4  5  6  7  8  9  10 11 12 13|0  0
+               |________________|
+                              |_________________|
+                                             |________________|
+```
+- In this example:
+  - Input width = 13
+  - Filter width = 6
+  - Stride = 5
+
+- Notes:
+  - `"VALID"` only ever drops the right-most columns (or bottom-most rows).
+  - `"SAME" tries to pad evenly left and right, but if the amount of columns to be added is odd, it will add the extra column to the right, as is the case in this example (the same logic applies vertically: there may be an extra row of zeros at the bottom).
+
 ### 3. Full examples
+
 ```python
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets(".", one_hot=True, reshape=False)

@@ -25,5 +25,6 @@ $$(F \times F \times D + 1) \times K$$
 **Benefits of pooling:**
 - Reduce the size of the input
 - Prevent overfitting
+
 **Max pooling:**
 - Allow the neural network to focus on only the most important elements
