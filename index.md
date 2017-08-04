@@ -8,3 +8,6 @@ layout: page
 
 ### TensorFlow
 - [Basic workflow (mnist dataset)](/tensorflow/tf_workflow.html)
+
+### Reinforcement Learning:
+- [SARSA vs Q-Learning](reinforcement_learning/sarsa_vs_q_learning.html)
