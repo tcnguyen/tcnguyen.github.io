@@ -10,3 +10,4 @@ title:
 - [Convolutional Neural Network Note](/neuralnetworks/convolutional_neural_network.html)
 - [Convolutional Neural Network with TensorFlow](/neuralnetworks/cnn_tensorflow.html)
 - [Basic workflow (mnist dataset)](/tensorflow/tf_workflow.html)
+- [Neural Network MNIST example](/neuralnetworks/examples/mnist/mnist_1.html)
