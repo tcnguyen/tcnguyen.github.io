@@ -6,6 +6,7 @@ title: Basic TensorFlow workflow
 - Create $X = (N, d_1, d_2, d_3)$ using placeholder for batch size $N$
 - Create variables $W$ and $b$ with initial values
 - Initialize all variables using `tf.intialize_all_variables()`
+
 ```python
 import tensorflow as tf
 
