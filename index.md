@@ -16,6 +16,7 @@ title:
 ### Reinforcement Learning:
 - [SARSA vs Q-Learning](reinforcement_learning/sarsa_vs_q_learning.html)
 
-
+### Code Snippets
+- [Code Snippets](/codesnippets/index.html)
 ### Other
 - [Personal Note](/monthnotes/index.html)
