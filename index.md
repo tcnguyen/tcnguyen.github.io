@@ -7,6 +7,7 @@ title:
 
 
 #### Notes
+- [Back Propagation Matrix Computation](/neuralnetworks/backprop.html)
 - [Convolutional Neural Network Note](/neuralnetworks/convolutional_neural_network.html)
 - [Convolutional Neural Network with TensorFlow](/neuralnetworks/cnn_tensorflow.html)
 - [Basic workflow (mnist dataset)](/tensorflow/tf_workflow.html)
