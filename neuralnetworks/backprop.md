@@ -59,17 +59,30 @@ $$ z = W.X + b $$
 
 of shape $(m \times M)$ and $df(z)$ the pointwise derivative of $f$ at $z$ which has the same shape.
 
-### Formula:
+###Formula
+1. For $a = f(z)$ a pointwise function ($a$ and $z$ of shape $m \times M$), we have the following equation since the derivative is taken pointwise:
+$$ dz = da * df(z)$$
 
-$$
-dX = W^{T} . (da*df(z))  \hspace{1cm} (n\times m).(m \times M) = (n \times M)
-$$
+2. For $z = W*X+b$ then we have:
+$$dX = W^{T}.dz$$
+$$dW = dz.X^{T}$$
+$$db = sum(dz,\ axis = 1)$$
 
-$$
-dW = (da*df(z)) . X^{T}  \hspace{1cm} (m \times M) .  (M\times n) = (m \times n)
-$$
+### Numpy
 
+```python
+def backprop(da, cache):
+  #values computed during forward pass
+  X,z,a,... = cache
 
-$$
-db = sum(da*df(z),\ axis = 1)
-$$
+  # get formula for df at z.
+  # example f = sigmoid ==> dfz = sigmoid(z)*(1-sigmoid(z)) = a(1-a)
+  # example f = tanh ==> dfz = (1-tanh(z)²) = (1-a²)
+  dfz = ...
+
+  # backprop
+  dz = da*dfz
+  dX = np.dot(W.T, dz)
+  dW = np.dot(dz,X.T)
+  db = np.sum(dz, axis=1, keepdims = True)
+```
