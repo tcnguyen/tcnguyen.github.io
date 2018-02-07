@@ -59,9 +59,12 @@ $$ z = W.X + b $$
 
 of shape $(m \times M)$ and $df(z)$ the pointwise derivative of $f$ at $z$ which has the same shape.
 
-###Formula
+### Formula
 1. For $a = f(z)$ a pointwise function ($a$ and $z$ of shape $m \times M$), we have the following equation since the derivative is taken pointwise:
-$$ dz = da * df(z)$$
+
+$$
+dz = da * df(z)
+$$
 
 2. For $z = W*X+b$ then we have:
 $$dX = W^{T}.dz$$
