@@ -2,7 +2,8 @@
 layout: page
 title:
 ---
-
+### Machine Learning
+- [Gradient Boosting Classification](/machinelearning/gradient_boosting_classification.html)
 ### Neural Network
 - [Back Propagation](/neuralnetworks/backprop.html)
 
@@ -13,10 +14,11 @@ title:
 
 - [TensorFlow](/tensorflow/tf_workflow.html)
 
+### Deep Learning Projects
+- [Character-wise RNN (tensorflow)](/projects/character_rnn_tensorflow.html)
+
 ### Reinforcement Learning:
 - [SARSA vs Q-Learning](reinforcement_learning/sarsa_vs_q_learning.html)
 
 ### Code Snippets
 - [Code Snippets](/codesnippets/index.html)
-### Other
-- [Personal Note](/monthnotes/index.html)
