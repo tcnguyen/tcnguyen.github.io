@@ -2,8 +2,6 @@
 layout: page
 title:
 ---
-### Machine Learning
-- [Gradient Boosting Classification](/machinelearning/gradient_boosting_classification.html)
 ### Neural Network
 - [Back Propagation](/neuralnetworks/backprop.html)
 
