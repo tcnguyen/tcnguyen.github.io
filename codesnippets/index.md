@@ -5,7 +5,10 @@ title: Code Snippets
 
 #### Machine Learning
 - [Confusion Matrix](./ML/confusion_matrix.html)
+
+#### NLP
 - [Gensim Vocabulary Dictionary](./ML/gensim_vocabulary_dictionary.md)
+- [Name Entity Recognition](./ML/ner.html)
 - [Text Preprocessing](./ML/text_preprocessing.html)
 
 
