@@ -7,6 +7,7 @@ title: Code Snippets
 - [Confusion Matrix](./ML/confusion_matrix.html)
 - [Gensim Vocabulary Dictionary](./ML/gensim_vocabulary_dictionary.md)
 - [Text Preprocessing](./ML/text_preprocessing.html)
+- [TF-IDF](./ML/tfidf.html)
 
 
 #### TensorFlow
