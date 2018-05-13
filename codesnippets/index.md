@@ -12,6 +12,8 @@ title: Code Snippets
 - [Text Preprocessing](./ML/text_preprocessing.html)
 - [TF-IDF](./ML/tfidf.html)
 
+#### Reinforcement Learning
+- [Gym](./RF/gym.html)
 
 #### TensorFlow
 - [RNN](./tensorflow/rnn.html)
