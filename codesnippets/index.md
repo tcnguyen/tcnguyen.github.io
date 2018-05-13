@@ -18,6 +18,7 @@ title: Code Snippets
 
 #### Google Colab
 - [Download Kaggle Data](./Colab/kaggle-data.html)
+- [Useful links](./Colab/colab-links.html)
 
 #### Docker
 - [Docker](./docker.html)
