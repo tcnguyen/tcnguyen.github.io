@@ -16,6 +16,8 @@ title: Code Snippets
 #### TensorFlow
 - [RNN](./tensorflow/rnn.html)
 
+#### Google Colab
+- [Download Kaggle Data](./Colab/kaggle-data.html)
 
 #### Docker
 - [Docker](./docker.html)
